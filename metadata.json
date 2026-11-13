@@ -1,0 +1,6 @@
+{
+  "name": "StarAviaTravel CRM",
+  "description": "Travel agency CRM, aviation booking management, lead pipeline, and website CMS workspace for StarAviaTravel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

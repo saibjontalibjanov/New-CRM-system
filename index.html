@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-theme="emerald">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarAviaTravel CRM — Admin &amp; CRM</title>
+    <meta
+      name="description"
+      content="Travel agency CRM, aviation booking management, lead pipeline, and website CMS workspace for StarAviaTravel."
+    />
+    <meta property="og:title" content="StarAviaTravel CRM — Admin &amp; CRM" />
+    <meta
+      property="og:description"
+      content="Travel agency CRM, aviation booking management, lead pipeline, and website CMS workspace for StarAviaTravel."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var valid = ['emerald', 'ivory-gold', 'graphite', 'ocean', 'lavender'];
+          var saved = localStorage.getItem('staravia_crm_theme');
+          if (saved && valid.indexOf(saved) !== -1) {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
